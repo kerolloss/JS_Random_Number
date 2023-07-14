@@ -1,0 +1,97 @@
+*{
+     text-align: center;
+}
+body{
+    background-color: rgba(0, 81, 255, 0.406);
+    height: 100dvh;
+    margin: 0px;
+    background-image: url(../wallpaper_flare.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    padding: 25px;
+    height: 70%;
+    width: 60%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+}
+.main>h1,
+.main > h2{
+    color: white;
+}
+.main>h1{
+    font-size: 4.68rem; 
+    margin: 30px 0px;
+}
+.main > h2{
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    width: calc(100% + 5px);
+    height: 3.125rem;
+    background-color: #a58f56;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.313);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    right: -3px;
+}
+button:hover{
+    background-color: #b8a062;
+    
+}
+#quote{
+    font-family: 'Crimson Text', serif;
+    font-size: 2.18rem;
+    color: black;
+}
+.quotes{
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    padding: 30px;
+    width: 65%;
+    border: 2px solid rgba(0, 0, 0, 0.313);
+    border-radius: 6px;
+    margin:auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    height: 50%;
+}
+.inner-quotes{
+    position: relative;
+    margin: 0px;
+    width: 95%;
+    margin: auto;
+}
+.fa-quote-left{
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    opacity: 50%;
+}
+.fa-quote-right{
+    position: absolute;
+    bottom: 0px;
+    right: -20px;
+    opacity: 50%;
+}
+#author{
+    text-align: end;
+}
+
+@media screen and (max-width:925px) {
+    html{
+        font-size: 10px;
+    }
+}

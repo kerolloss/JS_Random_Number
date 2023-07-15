@@ -37,6 +37,9 @@ body{
 button{
     width: calc(100% + 5px);
     height: 3.125rem;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
     background-color: #a58f56;
     color: rgb(0, 0, 0);
     border: 2px solid rgba(0, 0, 0, 0.313);

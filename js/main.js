@@ -15,11 +15,15 @@ var text = [
 "You only live once, but if you do it right, once is enough."
 ];
 document.getElementById("quote").innerHTML = "Hello";
+var quoteNum = -1;
 
 function randomNumber(){
     var num = Math.floor( Math.random() * userNames.length );
-    
+    while (quoteNum == num) {
+        var num = Math.floor( Math.random() * userNames.length );
+    }
     document.getElementById("quote").innerHTML = text[num];
     document.getElementById("author").innerHTML = userNames[num];
+    quoteNum = num;
 }
 
